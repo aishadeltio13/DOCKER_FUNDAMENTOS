@@ -1,6 +1,6 @@
 # 1. Elegir la imagen base
 # Usamos una versión ligera de Python 3.11.
-# "Slim" significa que es más pequeña, contiene solo lo esencial para ejecutar Python.
+# "slim" significa que es más pequeña, contiene solo lo esencial para ejecutar Python.
 FROM python:3.11-slim
 
 # 2. Establecer el directorio de trabajo dentro del contenedor
@@ -13,5 +13,4 @@ COPY . .
 
 # 4. Definir el comando que se ejecutará al iniciar el contenedor
 # Ejecuta Python y corre el archivo main.py por defecto.
-CMD ["python", "main_docker.py"]
-
+CMD ["python", "main_docker2.py"]
