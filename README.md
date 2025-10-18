@@ -38,6 +38,6 @@ So in short, we learned how to:
 - Run and check containers
 - Use Docker Compose for multiple containers
 
-This README doubles as both a **GitHub project description** and my **personal notes** for remembering how Docker works.
+
 
 
