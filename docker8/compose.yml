@@ -4,6 +4,6 @@ services:
     working_dir: /app
     volumes:
       - ".:/app"
-    command: ["python", "main_docker7.py"]
-
+    command: >
+      sh -c "pip install -r pip.txt && python main_docker8.py"
 

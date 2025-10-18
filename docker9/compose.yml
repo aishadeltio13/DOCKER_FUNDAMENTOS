@@ -1,0 +1,11 @@
+services:
+
+  number:
+    image: python:3.14-slim
+    working_dir: /app
+    volumes:
+      - ".:/app"
+    command: >
+      sh -c "pip install -r pip.txt && python main_docker9_1.py && python main_docker9.py" 
+  
+
