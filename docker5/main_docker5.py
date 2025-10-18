@@ -16,3 +16,4 @@ if response.status_code == 200:
     print(data)
 else:
     print("Error al conectarse a la API:", response.status_code)
+
